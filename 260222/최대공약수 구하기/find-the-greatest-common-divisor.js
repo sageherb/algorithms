@@ -5,8 +5,8 @@ let m = Number(input[1]);
 // Please Write your code here.
 
 function gcd(n, m) {
-    let num = 2;
-    for (let i = 2; i <= 100; i++) {
+    let num = 1;
+    for (let i = 1; i <= 100; i++) {
         if (n % i === 0 && m % i === 0) {
             num = i;
         }
